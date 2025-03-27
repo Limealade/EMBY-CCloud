@@ -1,0 +1,23 @@
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>Jellyfin.Plugin.CCcloud</AssemblyName>
+    <OutputPath>./bin/</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MediaBrowser.Common">
+      <HintPath>C:\Program Files\Jellyfin\Server\MediaBrowser.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="MediaBrowser.Controller">
+      <HintPath>C:\Program Files\Jellyfin\Server\MediaBrowser.Controller.dll</HintPath>
+    </Reference>
+    <Reference Include="MediaBrowser.Model">
+      <HintPath>C:\Program Files\Jellyfin\Server\MediaBrowser.Model.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

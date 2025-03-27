@@ -1,0 +1,11 @@
+
+{
+  "Id": "a4f218b7-77a9-4ac7-98ea-ccloudjelly",
+  "Name": "CCcloud Live TV",
+  "Version": "1.0.0.0",
+  "Description": "Provides CCcloud IPTV streams as Live TV channels in Jellyfin.",
+  "TargetAbi": "10.8.0.0",
+  "Owner": "Your Name",
+  "Category": "Live TV",
+  "Homepage": "https://github.com/yourname/jellyfin-plugin-cccloud"
+}
